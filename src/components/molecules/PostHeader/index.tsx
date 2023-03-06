@@ -4,7 +4,7 @@ import {
   ProfileIcon
 } from '../../../global/styles/icons';
 
-import { styles } from '../../../pages/Feed/styles'
+import { styles } from './styles'
 import { PostAvatar } from '../../atoms/PostAvatar';
 import { PostLocation } from '../../atoms/PostLocation';
 import { PostUsername } from '../../atoms/PostUsername';

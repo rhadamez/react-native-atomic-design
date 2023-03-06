@@ -18,7 +18,7 @@ import { profiles } from '../../utils/profiles';
 
 import { styles } from './styles';
 import { Posts } from '../../components/templates/Posts';
-
+import { posts } from '../../utils/posts';
 export function Feed() {
   return (
     <View style={styles.container}>
@@ -50,7 +50,7 @@ export function Feed() {
           )}
         />
       </View>
-      <Posts />
+      <Posts data={posts} />
     </View>
   );
 }

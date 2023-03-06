@@ -1,7 +1,7 @@
 import { Image, ImageProps } from "react-native";
 
-import { styles } from '../../../pages/Feed/styles'
+import { styles } from './styles'
 
 export function PostLikedAvatar({...rest}: ImageProps) {
-  return <Image style={styles.cover} {...rest} />
+  return <Image style={styles.lastLiked} {...rest} />
 }
